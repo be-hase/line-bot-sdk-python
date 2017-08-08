@@ -181,13 +181,10 @@ class LineBotApi(object):
 
     def get_group_member_profile(self, group_id, user_id, timeout=None):
         """Call get group member profile API.
-
         https://devdocs.line.me/en/#get-group-room-member-profile
-
-        Gets the user profile of a member of a group that the bot is in.
-        This can be the user ID of a user who has not added the bot as a friend
-        or has blocked the bot.
-
+        Gets the user profile of a member of a group that
+        the bot is in. This can be the user ID of a user who has
+        not added the bot as a friend or has blocked the bot.
         :param str group_id: Group ID
         :param str user_id: User ID
         :param timeout: (optional) How long to wait for the server
@@ -207,13 +204,10 @@ class LineBotApi(object):
 
     def get_room_member_profile(self, room_id, user_id, timeout=None):
         """Call get room member profile API.
-
         https://devdocs.line.me/en/#get-group-room-member-profile
-
-        Gets the user profile of a member of a room that the bot is in.
-        This can be the user ID of a user who has not added the bot as a friend
-        or has blocked the bot.
-
+        Gets the user profile of a member of a room that
+        the bot is in. This can be the user ID of a user who has
+        not added the bot as a friend or has blocked the bot.
         :param str room_id: Room ID
         :param str user_id: User ID
         :param timeout: (optional) How long to wait for the server
